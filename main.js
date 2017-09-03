@@ -15,9 +15,10 @@
     /*resize函数*/
     function resize(){
         /*初始屏幕*/
-       $('#one').css('height',$(window).height());
+       $('section').css('height',$(window).height());
         /*文字效果*/
        $('#one > p').stop().animate({'margin-top':($(window).height() -  $('#one > p').outerHeight())/2},1500);
+       /*设置所有页面高度*/
 
     }
 
